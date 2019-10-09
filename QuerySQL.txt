@@ -1,0 +1,10 @@
+1.Write a SQL query to return the employee number, name and salary of all ‘CLERK’ who work in
+Department 10. 
+>select empno,ename,sal from emp where job='CLERK' and deptno=10;
+
+2. Write a SQL query to find employee number, name and job of all employees who are not managers. 
+> select empno,ename,job from emp where not job='MANAGER'; 
+
+3. Write a SQL query to find employee number, name and salary of all employees who get less than 1000
+or more than 3000, ordered by salary
+>select empno,ename,sal 
